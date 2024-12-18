@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "//secondtimer/static/css/main.f6b87034.css",
+    "main.js": "//secondtimer/static/js/main.50f7f1ff.js",
+    "index.html": "//secondtimer/index.html",
+    "main.f6b87034.css.map": "//secondtimer/static/css/main.f6b87034.css.map",
+    "main.50f7f1ff.js.map": "//secondtimer/static/js/main.50f7f1ff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6b87034.css",
+    "static/js/main.50f7f1ff.js"
+  ]
+}

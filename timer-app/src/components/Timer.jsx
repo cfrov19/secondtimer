@@ -121,7 +121,7 @@ export default function Timer() {
         </button>
       </div>
       <div className={styles.storage}>
-        <h3>Set Times:</h3>
+        <h3>Storage:</h3>
         <ul>
           {setTimes.map((savedTime, index) => (
             <li key={index}>{formatTime(savedTime)}</li>

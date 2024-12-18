@@ -1,0 +1,53 @@
+
+.timer {
+  font-size: 42px;
+  margin-bottom: 30px;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.inputs input {
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  transition: border 0.3s ease;
+}
+
+.inputs input:focus {
+  border-color: #4CAF50;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.storage ul {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  padding: 15px;
+  gap: 15px;
+}

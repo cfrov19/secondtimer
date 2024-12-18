@@ -1,0 +1,24 @@
+.current {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.current p {
+  font-size: 80px;
+  font-weight: bold;
+  color: #8b0000;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.current p:hover {
+  transform: scale(1.05);
+  color: #b22222;
+}

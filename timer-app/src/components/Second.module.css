@@ -1,0 +1,39 @@
+.formatted {
+  font-size: 32px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons button {
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid brown;
+  transition: all 0.3s ease;
+}
+
+.buttons button:hover {
+  background-color: brown;
+  color: white;
+  transform: translateY(-3px);
+}
+
+.circle {
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  background-color: brown;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  padding: 20px;
+  gap: 15px;
+}
